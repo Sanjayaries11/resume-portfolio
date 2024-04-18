@@ -12,7 +12,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
+<!---JavaScript CDN--->
+<script src="https://cdn.jsdelivr.net/npm/javascript"></script>
 
       <!---JQUERY CDN--> 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -23,45 +24,49 @@
     <!----AOS ANIMATION-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-----Bootstrap JavaScript Bundle (includes Popper.js):-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
 
 </head>
 <body>
   <!----NAV STARTS-->
-   <nav class="navbar navbar-expand-lg " style="background-color: #000000; padding: 20px; ">
+  <div class="header">
+     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
               <a class="navbar-brand" href="#" style="color: #ffffff;"><span style="color: #e62753 !important;">S</span>anjay</a>
-              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon" style="color: #fff;"><i class="fa-solid fa-bars" style="color: #ffffff;"></i> Menu</span>
-                </button> -->
-              
-              <div class="collapse navbar-collapse" id="nav-menu">
-  
-                  <ul class="navbar-nav">
-                    <li class="nav-item ">
-                      <a href="#" class="nav-link ">Home</a>
-                  </li>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNav()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a href="#" class="nav-link" onclick="scrollToAbout()">About</a>
-                  </li>
-                    
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link" onclick="scrollToSkills()">Skills</a>
-                  </li>
+                        <a class="nav-link" href="#" onclick="scrollToAbout()">About</a>
+                    </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link">Projects</a>
-                  </li>
-                  <li>
-                      <a href="#" class="nav-link"  onclick="scrollToContact()">Contact</a>
-                  </li>
-                  <i class="fa-solid fa-xmark menu-toggle" style="color: #ffffff;"></i>
-                  </ul>
-                  
-                  <i class="fa-solid fa-bars menu-toggle" style="color: #ffffff;"></i>
-                </div>
+                        <a class="nav-link" href="#" onclick="scrollToSkills()">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="scrollToContact()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
           </div>
       </nav>
+  </div>
+  
    <!---NAV ENDS-->
 
 
@@ -135,7 +140,7 @@
   <div class="row">
     <div class="col-sm-12">
       <h1 data-aos="zoom-in" data-aos-delay="200" >Technical Skills</h1>
-      <div class="skill" id="skill" style="list-style-type: none;">
+      <div class="skill" id="skill" style="list-style-type: none; padding: 0px 0px 0px 0px;">
         <li>
           <h5 data-aos="fade-right"
           data-aos-offset="300"
@@ -213,7 +218,7 @@
               <input type="email" class="form-control" placeholder="Your Email" autocomplete="off"  required>
             </div>
             <div class="">
-              <textarea name="text-area" id="txt-area" cols="71" rows="10" placeholder="  Your Message"></textarea>
+              <textarea name="text-area" id="txt-area" cols="60" rows="10" placeholder="  Your Message"></textarea>
             </div>
            
            <button type="button" type="submit">Submit</button>
