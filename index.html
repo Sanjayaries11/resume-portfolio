@@ -32,6 +32,9 @@
 <!-----Bootstrap JavaScript Bundle (includes Popper.js):-->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
+<!----FOR Typed-text-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
 
 </head>
 <body>
@@ -76,8 +79,8 @@
           <div class="intro">
             <div class="words">
               <p>Hello it's me</p>
-              <h2> <span>SANJAY KUMAR</span></h2>
-              <p>I'm a Web designer with extensive  experience over n years.<br>expertise is to create and website design and Frontend Design.</p>
+              <h1><span id="typing-text" style="color: #e62753;"></span></h1>
+              <p>I'm a <span style="color: #e62753;">Web designer</span> with extensive  experience over n years.<br>expertise is to create and website design and Frontend Design.</p>
             </div>
           </div>
     </section>
@@ -239,10 +242,20 @@
   </footer>
   <!----FOOTER ENDS-->
 
-    
+    <!---FOR ANIMATION-->
     <script src="script.js"></script>
     <script>  
       AOS.init();
     </script>
+
+<!----FOR TYPING TEXT-->
+<script>
+  var typed = new Typed('#typing-text', {
+    strings: ['SANJAY KUMAR'],
+    typeSpeed: 100,
+    
+  });
+</script>
+
 </body>
 </html>
