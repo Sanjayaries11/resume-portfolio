@@ -245,7 +245,7 @@ img{
 /*SKILLS*/
 
 .skill{
-    width: 700px;
+   width: 700px;
    max-height: 1200px;
    height: auto;
     margin: 60px auto;
@@ -351,12 +351,13 @@ img{
     color: #e62753;
 }
 .contact-left a i{
-    margin-left: 10px;
+    margin-left: 15px;
     color: #fff;
 }
 .contact-left a i:hover{
     color: #e62753;
     transform: scale(1.5);
+    transition: all 0.1s;
 }
 button{
     color: #e62753;
