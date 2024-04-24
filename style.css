@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'poppins' , sans-serif;
+  font-family: 'poppins' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   box-sizing: border-box;  
 }
 body {
@@ -88,7 +88,9 @@ body ::selection{
     background-image: url("https://buffer.com/library/content/images/2023/10/free-images.jpg")!important;
     background-position: right ;
     background-repeat: no-repeat;
+    background-attachment: fixed !important;
     background-size: cover;
+    background-clip: padding-box !important;
     }
 
 .intro h6{
@@ -382,21 +384,24 @@ button:hover {
     margin-top: 20px;
 }
 .contact-right input{
-    border: none;
+    border: 1px solid #e62753;
     background-color: #212121;
 }
 .contact-right input:focus{
-    background-color: #212121;
-    border: #000;
+    caret-color: #e62753 !important;
+     border: 1px solid #e62753;
 }
 .contact-right textarea{
-    border: none;
+    
+    border: 1px solid #e62753 !important;
     background-color: #212121;
 }
-.contact-right:focus{
-    border: #000 !important;
-    background-color: #212121;
+.contact-right textarea:focus{
+    border: 1px solid #e62753 !important;
+    background-color: #fff;
+    caret-color: #e62753 !important;
 }
+
 
 
 
