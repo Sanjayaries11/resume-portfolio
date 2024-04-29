@@ -8,28 +8,24 @@
 //   }
 // }
 
-
-
-
 //SCROLLING TO CONTENT
 function scrollToAbout(){
   var aboutSection = document.getElementById("about");
   aboutSection.scrollIntoView({ behavior: 'smooth' });
 }
-
-
-function scrollToContact() {
-  var contactSection = document.getElementById("contact");
-  contactSection.scrollIntoView({ behavior: 'smooth' });
-}
-
 function scrollToSkills(){
   var skillsSection = document.getElementById("skills");
   skillsSection.scrollIntoView({ behavior: 'smooth' });
 }
+function scrollToProjects(){
+ var projectSection = document.getElementById("projects");
+ projectSection.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToContact() {
+  var contactSection = document.getElementById("contact");
+  contactSection.scrollIntoView({ behavior: 'smooth'});
+}
 //SCROLLING CONTENT END
-
-
 function openTab(tabName) {
     // Hide all tab contents
     var tabContents = document.getElementsByClassName("tab-contents");
