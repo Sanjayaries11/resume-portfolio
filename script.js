@@ -7,6 +7,14 @@
 //     navMenu.classList.add("show");
 //   }
 // }
+ function toggleNavMenu() {
+        const navMenu = document.getElementById('nav-menu');
+        if (navMenu.style.display === 'none' || navMenu.style.display === '') {
+            navMenu.style.display = 'block';
+        } else {
+            navMenu.style.display = 'none';
+        }
+    }
 
 //SCROLLING TO CONTENT
 function scrollToAbout(){

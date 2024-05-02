@@ -22,16 +22,10 @@ body ::selection{
     color: white !important;
     margin-left: 25px;
 }
-.navbar-nav a.active{
-    color: #e62753;
-}
-
 .navbar-nav .nav-link {
     color: white !important;
     position: relative;
 }
-
-
 .navbar-nav .nav-link::before,
 .navbar-nav .nav-link::after {
     content: "";
@@ -43,32 +37,66 @@ body ::selection{
     background-color: #e62753;
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
-
-
 .navbar-nav .nav-link:hover::before,
 .navbar-nav .nav-link:hover::after {
     left: 0; 
     width: 50%; 
 }
-
 /* Adjust pseudo-elements on hover (for the right side) */
 .navbar-nav .nav-link:hover::after {
     left: 50%; 
 }
-
 /* Adjust pseudo-elements on hover (for the left side) */
 .navbar-nav .nav-link:hover::before {
     left: 0; 
 }
-
 /* Hover effect for navigation links */
 .navbar-nav .nav-link:hover {
     color: #ccc !important; 
 }
 
+/* .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 5rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none !important;
+    border-radius: .25rem;
+} */
+.navbar button {
+    color: #e62753;
+    height: auto;
+    width:50px;
+    background-color: #000;
+    border: none !important;
+    border-radius: 10px !important;
+   }
+   .navbar button:hover {
+    background-color: none !important;
+    color: #e62753 !important;
+    transition: all 0.5s;
+}
+.navbar button i{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+/* .navbar-toggler-icon {
+    display: inline-block;
+    color: #e62753 !important;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+} */
+
+
 /*SECTION*/
-
-
 .intro {
     position: relative;
     overflow: hidden;
