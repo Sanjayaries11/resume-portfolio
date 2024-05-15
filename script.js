@@ -1,12 +1,3 @@
-// //Toggle button//
-// function toggleNav() {
-//   var navMenu = document.getElementById("nav-menu");
-//   if (navMenu.classList.contains("show")) {
-//     navMenu.classList.remove("show");
-//   } else {
-//     navMenu.classList.add("show");
-//   }
-// }
  function toggleNavMenu() {
         const navMenu = document.getElementById('nav-menu');
         if (navMenu.style.display === 'none' || navMenu.style.display === '') {
@@ -34,6 +25,8 @@ function scrollToContact() {
   contactSection.scrollIntoView({ behavior: 'smooth'});
 }
 //SCROLLING CONTENT END
+
+//TAB CONTENT
 function openTab(tabName) {
     // Hide all tab contents
     var tabContents = document.getElementsByClassName("tab-contents");
@@ -50,5 +43,7 @@ function openTab(tabName) {
     // Activate the selected tab link
     event.currentTarget.classList.add("active-link");
   }
+//TAB CONTENT END
 
-  
+
+

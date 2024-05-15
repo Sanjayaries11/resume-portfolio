@@ -1,12 +1,11 @@
 *{
- 
-  font-family: 'poppins' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family: 'poppins' , 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   box-sizing: border-box;  
 }
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 99%;
     background-color: #000000 !important;
     color: #fff !important;
     overflow-x: hidden !important;
@@ -14,7 +13,7 @@ body {
 body ::selection{
     color: #fff !important;
     background-color: #e62753 !important;
-}
+} 
 .navbar-brand{
     font-size: 2.5rem !important; 
     font-weight: bolder !important;
@@ -306,12 +305,16 @@ img{
     animation: css 5.2s;
 }
 .javascript{
-    width: 60%;
+    width: 50%;
     animation:javascript 5.5s;
 }
 .bootstrap{
     width: 90%;
     animation: bootstrap 5.7s;
+}
+.wordpress{
+    width: 50%;
+    animation: wordpress 5.9s;
 }
 @keyframes html{
     0%{
@@ -334,7 +337,7 @@ img{
     width: 0%;
  }
  100%{
-    width: 60%;
+    width: 50%;
  }
 }
 @keyframes bootstrap{
@@ -343,6 +346,14 @@ img{
  }
  100%{
     width: 90%;
+ }
+}
+@keyframes wordpress{
+ 0%{
+    width: 0%;
+ }
+ 100%{
+    width: 50%;
  }
 }
 
@@ -427,8 +438,8 @@ img{
 
 /*CONTACT*/
 .contact-left{
-    padding: 25px;
-}
+    text-align: center;
+  }
 .contact-right{
     padding: 25px;
 }
