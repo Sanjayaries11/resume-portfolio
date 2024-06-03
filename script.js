@@ -1,4 +1,5 @@
- function toggleNavMenu() {
+//MENU TOGGLE
+function toggleNavMenu() {
         const navMenu = document.getElementById('nav-menu');
         if (navMenu.style.display === 'none' || navMenu.style.display === '') {
             navMenu.style.display = 'block';
@@ -43,6 +44,16 @@ function openTab(tabName) {
     // Activate the selected tab link
     event.currentTarget.classList.add("active-link");
   }
+
+
+//Age Calculation
+function calculateAge(birthYear) {
+  const currentYear = new Date().getFullYear()
+  return currentYear-birthYear;
+} 
+
+const birthYear = 1999
+document.getElementById("age").textContent = calculateAge(birthYear);
 //TAB CONTENT END
 
 
