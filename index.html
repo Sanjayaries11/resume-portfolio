@@ -1,175 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
-    <!---BOOTSTRAP CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <!---BOOTSTRAP CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-<!---JavaScript CDN--->
-<script src="https://cdn.jsdelivr.net/npm/javascript"></script>
+  <!---JavaScript CDN--->
+  <script src="https://cdn.jsdelivr.net/npm/javascript"></script>
 
-      <!---JQUERY CDN--> 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!---JQUERY CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <!----FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/593f576760.js" crossorigin="anonymous"></script>
+  <!----FONT AWESOME-->
+  <script src="https://kit.fontawesome.com/593f576760.js" crossorigin="anonymous"></script>
 
-    <!----AOS ANIMATION-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!----AOS ANIMATION-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-    <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-----Bootstrap JavaScript Bundle (includes Popper.js):-->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <!-----Bootstrap JavaScript Bundle (includes Popper.js):-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-<!----FOR Typed-text-->
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!----FOR Typed-text-->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 
 </head>
-<body >
-  
+
+<body>
+
   <!----NAV STARTS-->
-<header>
+  <header>
     <nav class="navbar navbar-expand-lg">
-         <a class="navbar-brand" href="#" style="color: #ffffff;"><span style="color: #e62753 !important;">S</span>anjay</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNavMenu()">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-              </button>
-            <div class="collapse navbar-collapse" id="nav-menu">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="scrollToAbout()">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="scrollToSkills()">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="scrollToProjects()">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="scrollToContact()">Contact</a>
-                    </li>
-                </ul>
-              </div>
+      <a class="navbar-brand" href="#" style="color: #ffffff;"><span
+          style="color: #e62753 !important;">S</span>anjay</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNavMenu()">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav-menu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollToAbout()">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollToSkills()">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollToProjects()">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="scrollToContact()">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-</header>
-   <!---NAV ENDS-->
+  </header>
+  <!---NAV ENDS-->
 
 
 
-   <!-- -------------INTRO----------- -->
-    <section >
-          <div class="intro">
-            <div class="words">
-              <p>Hello it's me</p>
-              <h1><span id="typing-text" style="color: #e62753;"></span></h1>
-              <p>I'm a <span style="color: #e62753;">Web designer</span> with extensive  experience over 6 months.<br>expertise is to create and website design and Frontend Design.</p>
-            </div>
-          </div>
-    </section>
-<!-- -------------INTRO ENDS----------- -->
+  <!-- -------------INTRO----------- -->
+  <section>
+    <div class="intro">
+      <div class="words">
+        <p>Hello it's me</p>
+        <h1><span id="typing-text" style="color: #e62753;"></span></h1>
+        <p>I'm a <span style="color: #e62753;">Web designer</span> with extensive experience over 6 months.<br>expertise
+          is to create and website design and Frontend Design.</p>
+      </div>
+    </div>
+  </section>
+  <!-- -------------INTRO ENDS----------- -->
 
-<!---ABOUT-->
-     <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="image">
-              <img src="https://images.unsplash.com/photo-1555530740-3d67fab132ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhJTIwZXhwb3N1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80" height="600"  alt="image">
-              <div class="img-content ">
-                <h6>It is a long established fact that a reader <br> will be distracted by the readable content <br>of a page when looking at its layout.</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 abt">
-            <h1 class="about-title"  data-aos="fade-right" data-aos-delay="200" >About Me</h1>
-            <p data-aos="fade-left" data-aos-delay="200">Passionate Front-End Developer Intern skilled in HTML, CSS, and JavaScript, with experience in Bootstrap. Dedicated to creating user-friendly, visually appealing websites. Eager to learn and contribute in a collaborative team environment.</p>
-            <div class="tab-titles">
-              <div class="tab-links active-link" onclick="openTab('experience')">Experience</div>
-              <div class="tab-links" onclick="openTab('education')">Education</div>
-              <div class="tab-links " onclick="openTab('info')">Info</div>
-            </div>
-           
-            <div class="tab-contents active-tab" id="experience">
-              <ul>
-                <li><span>2024-Current</span><br>Front-End Developer Intern @ Afablez Semiconductor</li>
-                <li><span>2021-2023</span><br>GIS Analyst @ EDR Continuous Private Limited</li>
-               </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>2016-2020</span><br>B.E Mechanical Engineer from Jeppiaar Institute Of Techonolgy with 6.5%.</li>
-                <li><span>2015-2016</span><br>HSC from St.Sebastian's Matric. High Sec School with 75%.</li>
-                <li><span>2013-2014</span><br>SSLC from St.Sebastian's Matric. High Sec School with 77%.</li>
-               </ul>
-            </div> 
-            <div class="tab-contents " id="info">
-              <ul>
-                <li><span>Degree : <span style="color: #ffffff;">B.E Mechanical</span></span></li>
-                <li><span>Age : <span id="age" style="color: #ffffff;"></span></span></li>
-                <li><span>DOB : <span style="color: #ffffff;">31/08/1999</span></span></li>
-                <li><span>Father Name : <span style="color: #ffffff;">Sathish Kumar A.P</span></span></li>
-                <li><span>City : <span style="color: #ffffff;">Chennai</span></span></li>
-              </ul>
+  <!---ABOUT-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1555530740-3d67fab132ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhJTIwZXhwb3N1cmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+              height="600" alt="image">
+            <div class="img-content ">
+              <h6>It is a long established fact that a reader <br> will be distracted by the readable content <br>of a
+                page when looking at its layout.</h6>
             </div>
           </div>
         </div>
-      </div>
-     </div>
-<!---ABOUT ENDS-->
+        <div class="col-sm-6 abt">
+          <h1 class="about-title" data-aos="fade-right" data-aos-delay="200">About Me</h1>
+          <p data-aos="fade-left" data-aos-delay="200">Passionate Front-End Developer Intern skilled in HTML, CSS, and
+            JavaScript, with experience in Bootstrap. Dedicated to creating user-friendly, visually appealing websites.
+            Eager to learn and contribute in a collaborative team environment.</p>
+          <div class="tab-titles">
+            <div class="tab-links active-link" onclick="openTab('experience')">Experience</div>
+            <div class="tab-links" onclick="openTab('education')">Education</div>
+            <div class="tab-links " onclick="openTab('info')">Info</div>
+          </div>
 
-<!------SKILL-->
-<div class="container-fluid" id="skills" >
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 data-aos="zoom-in" data-aos-delay="200" >Technical Skills</h1>
-      <div class="skill" id="skill" style="list-style-type: none; ">
-        <li>
-          <h5 data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">HTML<span style="float: right !important;" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000">90%</span></h5>
-          <span class="bar"><span class="html"></span></span>
-        </li>
-        <li>
-          <h5 data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">CSS <span style="float: right !important;" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000">70%</span></h5>
-          <span class="bar"><span class="css"></span></span>
-        </li>
-        <li>
-          <h5 data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">Javascript <span style="float: right !important;" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000">50%</span></h5>
-          <span class="bar"><span class="javascript"></span></span>
-        </li>
-        <li>
-          <h5 data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">Bootstrap <span style="float: right !important;" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="3000">90%</span></h5>
-          <span class="bar"><span class="bootstrap"></span></span>
-        <!-- </li>
+          <div class="tab-contents active-tab" id="experience">
+            <ul>
+              <li><span>2024-Current</span><br>Front-End Developer Intern @ Afablez Semiconductor</li>
+              <li><span>2021-2023</span><br>GIS Analyst @ EDR Continuous Private Limited</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016-2020</span><br>B.E Mechanical Engineer from Jeppiaar Institute Of Techonolgy with 6.5%.
+              </li>
+              <li><span>2015-2016</span><br>HSC from St.Sebastian's Matric. High Sec School with 75%.</li>
+              <li><span>2013-2014</span><br>SSLC from St.Sebastian's Matric. High Sec School with 77%.</li>
+            </ul>
+          </div>
+          <div class="tab-contents " id="info">
+            <ul>
+              <li><span>Degree : <span style="color: #ffffff;">B.E Mechanical</span></span></li>
+              <li><span>Age : <span id="age" style="color: #ffffff;"></span></span></li>
+              <li><span>DOB : <span style="color: #ffffff;">31/08/1999</span></span></li>
+              <li><span>Father Name : <span style="color: #ffffff;">Sathish Kumar A.P</span></span></li>
+              <li><span>City : <span style="color: #ffffff;">Chennai</span></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---ABOUT ENDS-->
+
+  <!------SKILL-->
+  <div class="container-fluid" id="skills">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 data-aos="zoom-in" data-aos-delay="200">Technical Skills</h1>
+        <div class="skill" id="skill" style="list-style-type: none; ">
+          <li>
+            <h5 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">HTML<span
+                style="float: right !important;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">90%</span></h5>
+            <span class="bar"><span class="html"></span></span>
+          </li>
+          <li>
+            <h5 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CSS <span
+                style="float: right !important;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">70%</span></h5>
+            <span class="bar"><span class="css"></span></span>
+          </li>
+          <li>
+            <h5 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Javascript <span
+                style="float: right !important;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">50%</span></h5>
+            <span class="bar"><span class="javascript"></span></span>
+          </li>
+          <li>
+            <h5 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Bootstrap <span
+                style="float: right !important;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">90%</span></h5>
+            <span class="bar"><span class="bootstrap"></span></span>
+            <!-- </li>
         <li>
           <h5 data-aos="fade-right"
           data-aos-offset="300"
@@ -178,43 +188,50 @@
           data-aos-duration="3000">50%</span></h5>
           <span class="bar"><span class="wordpress"></span></span>
         </li> -->
-          
-         <!-- <li>
+
+            <!-- <li>
           <h5>ABC</h5>
           <span class="bar"><span class="abc"></span></span>
         </li> -->
+        </div>
       </div>
-    </div>
     </div>
   </div>
- 
-</div>
-<!------SKILL END-->
 
-<!----PROJECTS-->
-<div id="projects" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1 data-aos="zoom-out" data-aos-delay="300" >Projects</h1>
-      <div class="timeline-section">
-      <div class="timeline-items" >
-    <div class="timeline-item" data-aos="fade-right" data-aos-offset="300">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">2024 Jan -Present</div>
-      <div class="timeline-content">
-        <h3>Front-End Developer(Intern)</h3>
-        <p>I worked as a front-end developer on CRM and HRM applications, using HTML, CSS, Bootstrap, and JavaScript. I collaborated with the front-end team to create engaging, responsive, and user-friendly interfaces, focusing on improving the overall user experience. My expertise in HTML ensures well-structured content, while my proficiency in CSS and Bootstrap delivers visually appealing, mobile-responsive designs. Additionally, my command of JavaScript brings interactivity and functionality to our applications.</p>
-      </div>
-    </div>
-    <div class="timeline-item" data-aos="fade-left" data-aos-offset="300">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">2021 Feb - 2023 Mar</div>
-      <div class="timeline-content">
-        <h3>GIS Analyst</h3>
-        <p>Educated user about how to operate and leverages GIS software for different application.Presented GIS software system and data collection method via training courses.Oversaw surveying vendors to verify compliance with necessary business goals and related regulations.</p>
-      </div>
-    </div>
-    <!-- <div class="timeline-item" data-aos="fade-right" data-aos-offset="300">
+  </div>
+  <!------SKILL END-->
+
+  <!----PROJECTS-->
+  <div id="projects" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 data-aos="zoom-out" data-aos-delay="300">Projects</h1>
+        <div class="timeline-section">
+          <div class="timeline-items">
+            <div class="timeline-item" data-aos="fade-right" data-aos-offset="300">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2024 Jan -Present</div>
+              <div class="timeline-content">
+                <h3>Front-End Developer(Intern)</h3>
+                <p>I worked as a front-end developer on CRM and HRM applications, using HTML, CSS, Bootstrap, and
+                  JavaScript. I collaborated with the front-end team to create engaging, responsive, and user-friendly
+                  interfaces, focusing on improving the overall user experience. My expertise in HTML ensures
+                  well-structured content, while my proficiency in CSS and Bootstrap delivers visually appealing,
+                  mobile-responsive designs. Additionally, my command of JavaScript brings interactivity and
+                  functionality to our applications.</p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left" data-aos-offset="300">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2021 Feb - 2023 Mar</div>
+              <div class="timeline-content">
+                <h3>GIS Analyst</h3>
+                <p>Educated user about how to operate and leverages GIS software for different application.Presented GIS
+                  software system and data collection method via training courses.Oversaw surveying vendors to verify
+                  compliance with necessary business goals and related regulations.</p>
+              </div>
+            </div>
+            <!-- <div class="timeline-item" data-aos="fade-right" data-aos-offset="300">
       <div class="timeline-dot"></div>
       <div class="timeline-date">0000-0000</div>
       <div class="timeline-content">
@@ -222,30 +239,31 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries</p>
       </div>
     </div> -->
-  </div>
- </div>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
- 
-</div>
-<!----PROJECTS-END-->
+  <!----PROJECTS-END-->
 
 
-<!-----CONTACT----->
+  <!-----CONTACT----->
   <div id="contact">
     <div class="container">
       <div class="row" style="padding: 50px;">
         <div class="contact-left">
           <h1 class="sub-title" data-aos="fade-right" data-aos-delay="200">Contact Me</h1>
-           <p><i class="fa-solid fa-envelope"></i><span>sanjay310899@gmail.com</span></p>
-           <p><i class="fa-solid fa-phone"></i><span>+91-9841108736</span></p>
-           <div class="social-icons" data-aos="fade-left" data-aos-delay="200">
-            <a href="https://www.linkedin.com/in/sanjay-kumar-s-608913195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <p><i class="fa-solid fa-envelope"></i><span>sanjay310899@gmail.com</span></p>
+          <p><i class="fa-solid fa-phone"></i><span>+91-9841108736</span></p>
+          <div class="social-icons" data-aos="fade-left" data-aos-delay="200">
+            <a href="https://www.linkedin.com/in/sanjay-kumar-s-608913195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/Sanjayaries11" target="_blank"><i class="fa-brands fa-github"></i></i></a>
-           </div>
-           <!-- <a id="cvDownloadLink" style="display: none;" href="one.pdf" download="Your_CV_File_Name.pdf"></a>
+          </div>
+          <!-- <a id="cvDownloadLink" style="display: none;" href="one.pdf" download="Your_CV_File_Name.pdf"></a>
            <button  id="downloadCVBtn" type="button">Download CV</button> -->
         </div>
         <!-- <div class="col-sm-6 contact-right">
@@ -269,7 +287,7 @@
   <!----CONTACT ENDS-->
 
 
-<!----FOOTER-->
+  <!----FOOTER-->
   <footer>
     <div class="container-fluid" style="background-color: #212121 !important; padding: 25px;">
       <div style="text-align: center !important;">
@@ -280,20 +298,21 @@
   <!----FOOTER ENDS-->
 
 
-    <!---FOR ANIMATION-->
-    <script src="script.js"></script>
-    <script>  
-      AOS.init();
-    </script>
+  <!---FOR ANIMATION-->
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
-<!----FOR TYPING TEXT-->
-<script>
-  var typed = new Typed('#typing-text', {
-    strings: ['SANJAY KUMAR', 'A Front-End Developer'],
-    typeSpeed: 100,
-    loop: true
-  });
-</script>
+  <!----FOR TYPING TEXT-->
+  <script>
+    var typed = new Typed('#typing-text', {
+      strings: ['SANJAY KUMAR', 'A Front-End Developer'],
+      typeSpeed: 100,
+      loop: true
+    });
+  </script>
 
 </body>
+
 </html>
