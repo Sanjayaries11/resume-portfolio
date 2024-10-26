@@ -346,9 +346,9 @@ img {
     animation: bootstrap 5.7s;
 }
 
-.wordpress {
+.ReactJs {
     width: 50%;
-    animation: wordpress 5.9s;
+    animation: ReactJs 5.9s;
 }
 
 @keyframes html {
@@ -391,7 +391,7 @@ img {
     }
 }
 
-@keyframes wordpress {
+@keyframes ReactJs {
     0% {
         width: 0%;
     }
