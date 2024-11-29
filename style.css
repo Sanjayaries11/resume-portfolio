@@ -13,7 +13,8 @@
 body {
     margin: 0;
     padding: 0;
-    width: 99%;
+    width: 100%;
+    min-height: 100%;
     background-color: #000000 !important;
     color: #fff !important;
     overflow-x: hidden !important;
@@ -21,7 +22,24 @@ body {
 
 body ::selection {
     color: #fff !important;
-    background-color: #e62753 !important;
+    background-color: #e62753;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e62753;
+    border: 0px;
+    background-clip: padding-box;
+    border-radius: 3px;
 }
 
 /* top to scroll */
@@ -108,9 +126,11 @@ body ::selection {
     transition: all 200ms linear;
 }
 
+/* Navbar */
+
 .navbar-brand {
     font-size: 2.5rem !important;
-    font-weight: bolder !important;
+    font-weight: bold !important;
 }
 
 .navbar-nav .nav-link {
@@ -131,7 +151,7 @@ body ::selection {
     bottom: 0;
     left: 50%;
     width: 0;
-    height: 2px;
+    height: 3px;
     background-color: #e62753;
     transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
@@ -142,17 +162,14 @@ body ::selection {
     width: 50%;
 }
 
-/* Adjust pseudo-elements on hover (for the right side) */
 .navbar-nav .nav-link:hover::after {
     left: 50%;
 }
 
-/* Adjust pseudo-elements on hover (for the left side) */
 .navbar-nav .nav-link:hover::before {
     left: 0;
 }
 
-/* Hover effect for navigation links */
 .navbar-nav .nav-link:hover {
     color: #ccc !important;
 }
@@ -165,6 +182,7 @@ body ::selection {
     border: none !important;
     border-radius: .25rem;
 } */
+
 .navbar button {
     color: #e62753;
     height: auto;
@@ -218,9 +236,10 @@ body ::selection {
 }
 
 .words {
-    position: relative;
+    position: absolute;
     z-index: 1;
     color: #fff;
+    transform: translate(-65px, -145px);
 }
 
 .words p {
@@ -260,37 +279,22 @@ body ::selection {
     }
 }
 
-
-
-
-
 /*ABOUT*/
 #about {
     padding: 100px 10px;
     background-color: #000;
 }
 
-.abt {
-    padding: 20px;
-}
-
 .image {
-    padding: 10px;
     position: relative;
-    margin-right: 100px;
-}
-
-img {
-    width: auto;
-    border-radius: 15px;
+    padding: 0px 15px;
 }
 
 .image img {
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
-
-
 
 .img-content {
     position: absolute;
@@ -304,15 +308,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 40px;
 }
 
 .img-content h6 {
     font-size: 16px;
-    color: #ccc;
+    color: #fff;
     font-size: 1rem;
     text-align: center;
-
 }
 
 .image:hover .img-content {
@@ -322,7 +325,6 @@ img {
 .about-title {
     font-size: 2.5rem;
     color: #e62753;
-
 }
 
 .abt p {
@@ -599,7 +601,10 @@ img {
 }
 
 .contact-left p {
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }
 
 .contact-left p span {
@@ -613,7 +618,7 @@ img {
 }
 
 .contact-left a i {
-    margin-left: 15px;
+    margin-left: 12px;
     color: #fff;
 }
 
@@ -669,6 +674,16 @@ button:hover {
     border: 1px solid #e62753 !important;
     background-color: #fff;
     caret-color: #e62753 !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #212121 !important;
+    padding: 20px;
+}
+
+.footer-inner {
+    text-align: center;
 }
 
 /* For tablets and smaller devices */

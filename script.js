@@ -51,9 +51,9 @@ function calculateAge(birthYear) {
   const currentYear = new Date().getFullYear()
   return currentYear - birthYear;
 }
-
 const birthYear = 1999
 document.getElementById("age").textContent = calculateAge(birthYear);
+
 //TAB CONTENT END
 
 
