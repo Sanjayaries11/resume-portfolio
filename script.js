@@ -1,3 +1,11 @@
+//for cursor
+document.addEventListener('mousemove', (event) => {
+  const cursorDot = document.getElementById('cursor-dot');
+  cursorDot.style.left = `${event.pageX + 15}px`;
+  cursorDot.style.top = `${event.pageY + 15}px`;
+  cursorDot.style.display = 'block';
+});
+
 //MENU TOGGLE
 function toggleNavMenu() {
   const navMenu = document.getElementById('nav-menu');
@@ -98,6 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initial progress update
   updateProgress();
 });
+
+
 
 
 
