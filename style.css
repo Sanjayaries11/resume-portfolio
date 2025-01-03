@@ -51,6 +51,7 @@ body ::selection {
     pointer-events: none;
     display: none;
     transform: translate(-300%, 150%);
+    z-index: 9999;
 }
 
 /* top to scroll */
@@ -230,16 +231,27 @@ body ::selection {
 
 
 /*SECTION*/
+
+.vanta-canvas {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
 .intro {
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
     padding: 300px;
-    background-image: url("https://buffer.com/library/content/images/2023/10/free-images.jpg") !important;
+    /* background-image: url("https://buffer.com/library/content/images/2023/10/free-images.jpg") !important;
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed !important;
     background-size: cover;
-    background-clip: padding-box !important;
+    background-clip: padding-box !important; */
 }
 
 .intro h6 {

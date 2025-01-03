@@ -13,17 +13,14 @@
   <link rel="icon" href="../../asset/fav-icon.png" type="image/x-icon">
 
   <link rel="stylesheet" href="style.css">
+
   <!---BOOTSTRAP CDN-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
   <!-- top to scroll -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-  <!---JQUERY CDN-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
   <!----FONT AWESOME-->
   <script src="https://kit.fontawesome.com/593f576760.js" crossorigin="anonymous"></script>
@@ -33,14 +30,15 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <!-----Bootstrap JavaScript Bundle (includes Popper.js):-->
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
   <!----FOR Typed-text-->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- for banner animation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
 
 </head>
 
@@ -54,7 +52,7 @@
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
   </div>
-  
+
   <!----NAV STARTS-->
   <header>
     <nav class="navbar navbar-expand-lg">
@@ -91,11 +89,11 @@
 
   <!-- -------------INTRO----------- -->
   <section>
-    <div class="intro">
+    <div class="intro" id="intro">
       <div class="words">
         <p>Hello it's me</p>
         <h1><span id="typing-text" style="color: #e62753;"></span></h1>
-        <p>I'm a <span style="color: #e62753;">Web designer</span> with extensive experience over 6 months.<br>expertise
+        <p>I'm a <span style="color: #e62753;">Web designer</span> with extensive experience over 1 Year.<br>expertise
           is to create and website design and Frontend Design.</p>
       </div>
     </div>
@@ -316,6 +314,21 @@
       backSpeed: 50,
       loop: true
     });
+
+    VANTA.NET({
+      el: "#intro",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+    })
+  </script>
+  <!-- for banner animation -->
+  <script>
+
   </script>
 
 </body>
