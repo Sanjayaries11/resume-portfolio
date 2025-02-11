@@ -17,7 +17,7 @@ body {
     padding: 0;
     width: 100%;
     min-height: 100%;
-    background-color: #000000 !important;
+    background-color: #262626 !important;
     color: #fff !important;
     overflow-x: hidden !important;
 }
@@ -308,12 +308,11 @@ body ::selection {
 /*ABOUT*/
 #about {
     padding: 100px 10px;
-    background-color: #000;
+    background-color: #262626;
 }
 
 .image {
     position: relative;
-    padding: 0px 15px;
 }
 
 .image img {
@@ -589,7 +588,7 @@ body ::selection {
 }
 
 .timeline-content {
-    background-color: #201d1d9a;
+    background-color: #333333;
     padding: 30px;
     border-radius: 8px;
 }
